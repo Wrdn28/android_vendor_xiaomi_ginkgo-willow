@@ -81,6 +81,45 @@ android_app_import {
 	product_specific: true,
 }
 
+dex_import {
+	name: "vendor.xiaomi.hardware.misys-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.xiaomi.hardware.misys-V2.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.xiaomi.hardware.misys.V3_0",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.misys.V3_0.jar"],
+}
+
+dex_import {
+	name: "com.fingerprints.extension",
+	owner: "xiaomi",
+	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
+	soc_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.soter-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-qti",
 	owner: "xiaomi",
